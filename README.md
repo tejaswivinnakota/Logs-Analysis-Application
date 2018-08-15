@@ -25,8 +25,8 @@ The database contains newspaper articles, as well as the web server log for the 
 * <h3>Start the virtual machine</h3>
   From your terminal, inside the directory, run the command `vagrant up`. This will cause Vagrant to download the Linux operating system and install it.
   When vagrant up is finished running, you can run `vagrant ssh` to log in to your newly installed Linux VM!
-* You will need to extract newsdata.sql. Put this file into the vagrant directory, which is shared with your virtual machine.
 * <h3>Setup Database</h3>
+  You will need to extract newsdata.sql. Put this file into the vagrant directory, which is shared with your virtual machine.
   To load the database use the following command:
   <pre>psql -d news -f newsdata.sql;</pre>
 * <h3>Run application</h3>
