@@ -20,8 +20,8 @@ The database contains newspaper articles, as well as the web server log for the 
 ## Instructions
 * <h3>Install <a href="https://www.vagrantup.com/">Vagrant</a> and <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox.</a></h3>
 * <h3>Start the virtual machine</h3>
-  * From your terminal, inside the directory, run the command `vagrant up`. This will cause Vagrant to download the Linux operating system and install it.
-  * When vagrant up is finished running, you can run `vagrant ssh` to log in to your newly installed Linux VM!
+  From your terminal, inside the directory, run the command `vagrant up`. This will cause Vagrant to download the Linux operating system and install it.
+  When vagrant up is finished running, you can run `vagrant ssh` to log in to your newly installed Linux VM!
 * <h3>Download the <a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip">data</a></h3>
   You will need to extract newsdata.sql. Put this file into the vagrant directory, which is shared with your virtual machine.
 * <h3>Setup Database</h3>
