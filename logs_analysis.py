@@ -50,6 +50,6 @@ def view_days_error_rate_more_than_one():
 
 
 if __name__ == '__main__':
-    view_three_popular_articles()
-    view_popular_authors()
-    view_days_error_rate_more_than_one()
+  view_three_popular_articles()
+  view_popular_authors()
+  view_days_error_rate_more_than_one()
